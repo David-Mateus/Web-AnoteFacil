@@ -55,7 +55,7 @@ export default function Home({ notes }) {
     <>
       <main className="max-w-screem-sm m-auto h-screen">
         <Navbar />
-        <section className="max-w-full bg-indigo-500 p-4 mt-4 h-full rounded-md">
+        <section className="max-w-full bg-indigo-500 p-4 mt-4 h-max-full rounded-md">
           <ul className="max-w-lg m-auto">
             {notes.map((note, i) => {
               return (
