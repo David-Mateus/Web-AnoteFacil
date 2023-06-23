@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import React, {useState} from "react";
 import axios from "axios";
+// connect to mongodb and axios to create note
 export default function CreateNote() {
 
     const [title, setTitle] = useState("")

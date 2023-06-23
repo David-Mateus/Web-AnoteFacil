@@ -2,7 +2,7 @@
 import Navbar from "./components/Navbar";
 import React, { useState } from "react";
 import axios from "axios";
-
+// connect to mongodb
 export async function getStaticProps() {
   const mongoose = require("mongoose");
   const Note = require("/model/Note.js");
@@ -30,6 +30,7 @@ export default function Home({ notes }) {
   const [content, setContent] = useState("");
   const [noteId, setNoteId] = useState("");
 
+  //connect to mongodb and axios
   const editForm = (title, content, noteId) => {
     setVisibility((visibility) => !visibility);
     setTitle(title);
