@@ -14,5 +14,5 @@ First, run the development server:
 
 ## Deploy on Vercel
 
- [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) 
+ [Vercel](https://web-anote-facil-2phu-kf69691wa-david-mateus.vercel.app/) 
 
